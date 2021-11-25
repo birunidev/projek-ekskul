@@ -46,3 +46,48 @@
   transform: translateY(-10px);
   cursor: pointer;
 }
+
+.about {
+  padding: 50px 200px;
+}
+
+.about h2 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Arial";
+  font-size: 32px;
+}
+.about p {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.4;
+  color: rgb(80, 80, 80);
+  font-family: "Arial";
+}
+
+.gallery {
+  padding: 50px 100px;
+}
+
+.gallery h3 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Arial";
+}
+
+.gallery .images {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery .images img {
+  margin-right: 30px;
+  transition: 0.4s ease-out;
+}
+
+.gallery .images img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
